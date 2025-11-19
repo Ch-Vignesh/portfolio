@@ -1,7 +1,5 @@
-<script type="module">
-    import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
-    import {OrbitControls} from "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/controls/OrbitControls.js";
-</script>
+import * as THREE from 'three';
+import { vertexShader, fragmentShader } from './shaders.js';
 
 export function initScene() {
     const canvas = document.querySelector('#bg-canvas');
