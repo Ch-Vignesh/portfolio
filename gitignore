@@ -1,0 +1,18 @@
+# Dependencies
+devDependencies
+node_modules
+node_modules/
+# Build
+dist
+build
+
+# Editor
+.idea
+.vscode
+
+# Other
+.DS_Store
+Thumbs.db
+
+# Vite
+.vite
